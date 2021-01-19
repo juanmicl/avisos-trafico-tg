@@ -1,0 +1,26 @@
+{
+  "name": "avisos-trafico-tg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "juanmicl",
+  "license": "ISC",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "async": "^2.6.2",
+    "colors": "^1.4.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "node-cache": "^5.1.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
